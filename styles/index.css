@@ -1,5 +1,4 @@
 /* Banner Decoration */
-body {}
 
 .banner {
     background-image: linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255)), url("../images/Banner_Image.png");
@@ -110,23 +109,26 @@ h1 {
 }
 
 .join_now {
-    background-color:white;
+    background-color: white;
     background-image: linear-gradient(to top, white, rgba(255, 0, 0, 0.10));
     width: 1320px;
     height: 482px;
     border-radius: 15px;
 }
-.jtxt{
+
+.jtxt {
     padding-top: 100px;
     text-align: center;
     font-size: 32px;
     font-weight: 600;
     color: #070211;
 }
-span{
+
+span {
     color: #F00;
 }
-.btn1{
+
+.btn1 {
     padding: 16px 32px;
     background-color: #F00;
     font-size: 20px;
@@ -136,5 +138,73 @@ span{
     margin-left: 576px;
     border: none;
     border-radius: 10px;
+
+}
+
+/* Profile section decoration */
+.profile {
+    margin: 120px 90px;
+    display: flex;
+
+}
+
+.pt1 {
+    color: #F00;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
     
 }
+
+.pt2 {
+
+    font-size: 48px;
+    color: #070211;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+
+}
+
+.pt3 {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.elip {
+    
+    border: 15px solid red;
+    border-radius: 463px;
+}
+
+.p2 {
+
+    padding-left: 119px;
+
+}
+.p3 {
+
+    padding-left: 167px;
+
+}
+
+.pt11{
+    
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+.pt12{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.happy{
+    padding-top: 10px;
+}
+
+/*  */
