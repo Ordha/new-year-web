@@ -1,26 +1,26 @@
 /* Banner Decoration */
-body{
-    
-}
+body {}
 
-.banner{
-    background-image:linear-gradient( rgb(0,0,0), rgb(255,255,255)), url("../images/Banner_Image.png");
+.banner {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255)), url("../images/Banner_Image.png");
     width: 1320px;
     height: 600px;
     background-repeat: no-repeat;
     background-position: center;
     background-blend-mode: multiply;
     margin: 0px 90px;
-    font-family: 'Merriweather', serif;   
+    font-family: 'Merriweather', serif;
 }
-h3{
+
+h3 {
     color: white;
     text-align: center;
     padding-top: 170px;
     font-size: 32px;
     font-weight: 400;
 }
-h1{
+
+h1 {
     text-align: center;
     color: white;
     font-size: 72px;
@@ -28,59 +28,61 @@ h1{
 }
 
 /* discount section decoration */
-.text{
+.text {
     font-family: 'Inter', sans-serif;
     text-align: center;
 }
 
-.t1{
+.t1 {
     color: #F00;
     font-size: 88px;
     font-weight: 700;
     margin-bottom: 48px;
 }
 
-.t2{
+.t2 {
     color: #F00;
     font-size: 24px;
     font-weight: 500;
 }
 
-.t3{
+.t3 {
     color: #070211;
     font-size: 48px;
-    font-weight: 700;   
+    font-weight: 700;
 }
 
-.image{
+.image {
     margin-left: 350px;
     width: 500px;
 }
 
 /* Section Welcome decoration */
 
-.welcome{
+.welcome {
     margin: 120px 90px;
-    
+
 }
 
-.text2{
-    background-image:linear-gradient(to right, black,white), url("../images/Vectorrr.png");
+.text2 {
+    background-image: linear-gradient(to right, black, white), url("../images/Vectorrr.png");
     width: 1320px;
     height: 600px;
     background-blend-mode: multiply;
 }
-.w1{
+
+.w1 {
     text-align: left;
     padding-top: 126px;
     padding-left: 126px;
-    font-family: 'Merriweather', serif; 
+    font-family: 'Merriweather', serif;
     font-size: 64px;
     font-weight: 900;
     letter-spacing: 7px;
 
 }
-.txt{
+
+.txt {
     text-align: left;
     color: rgba(255, 255, 255, 0.80);
     padding-top: 24px;
@@ -89,7 +91,8 @@ h1{
     font-weight: 400;
     font-family: 'Inter', sans-serif;
 }
-.btn{
+
+.btn {
     margin-left: 158px;
     margin-top: 48px;
     font-family: 'Inter', sans-serif;
@@ -98,4 +101,40 @@ h1{
     color: white;
     background-color: #070211;
     border: none;
+}
+
+/* Section join now decoration */
+.join {
+    margin: 120px 90px;
+    font-family: 'Inter', sans-serif;
+}
+
+.join_now {
+    background-color:white;
+    background-image: linear-gradient(to top, white, rgba(255, 0, 0, 0.10));
+    width: 1320px;
+    height: 482px;
+    border-radius: 15px;
+}
+.jtxt{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: #070211;
+}
+span{
+    color: #F00;
+}
+.btn1{
+    padding: 16px 32px;
+    background-color: #F00;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin-top: 48px;
+    margin-left: 576px;
+    border: none;
+    border-radius: 10px;
+    
 }
