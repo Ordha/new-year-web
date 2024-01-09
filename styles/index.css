@@ -60,14 +60,15 @@ h1 {
 
 .welcome {
     margin: 120px 90px;
-
+    
 }
+
 
 .text2 {
     background-image: linear-gradient(to right, black, white), url("../images/Vectorrr.png");
+    background-blend-mode: multiply;
     width: 1320px;
     height: 600px;
-    background-blend-mode: multiply;
 }
 
 .w1 {
@@ -207,4 +208,54 @@ span {
     padding-top: 10px;
 }
 
-/*  */
+/* sale section decoration */
+
+.sale{
+    margin: 120px 90px;
+    width: 1320px;
+    height: 600px;      
+}
+.img1{
+    
+    text-align: center;
+    height: 100px;
+}
+
+.img2{
+    
+    height: 600px;
+}
+
+.what{
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+.holiday{
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+}
+
+.article{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+.under{
+    width: 1320px;
+    height: 200px;
+    
+}
+.meye{
+    padding-top: 300px;
+    padding-left: 890px;
+    width: 429px;
+    height: 400px;
+    
+}
